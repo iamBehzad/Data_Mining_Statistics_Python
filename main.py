@@ -5,12 +5,12 @@ Created on 1401/01/04
 @author : Behzad
 """
 
-# libraries
+# Libraries
 import statistics as st
 import numpy as np
 from scipy import stats
 
-# data
+# Data
 Scores = [20, 20, 18, 18, 20, 17, 17, 18, 14, 12, 18, 20]
 
 # Mean
@@ -66,7 +66,7 @@ h = st.pvariance(Scores)
 print("Variance Calculation with Statistics (Scores as a Population): ", h)
 print("-----------------------------------")
 
-#Standard Deviation
+# Standard Deviation
 i = np.std(Scores)
 print("Standard Deviation Calculation with Numpy : ", i )
 print("-----------------------------------")
